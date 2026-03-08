@@ -14,7 +14,7 @@ def get_conn():
 
 @app.get("/")
 def home():
-    return "✅ Flask app is running behind Nginx!"
+    return "✅ Auto-deployed by GitHub Actions CI/CD!"
 
 @app.get("/health")
 def health():
